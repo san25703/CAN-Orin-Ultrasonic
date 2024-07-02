@@ -65,7 +65,8 @@ The script uses an ultrasonic sensor connected to the Orin GPIO pins to measure 
    - **TRIG** to GPIO 33 on the Orin
    - **ECHO** to GPIO 31 on the Orin
 
-![Orin Pinout]([https://example.com/path/to/your/image.png](https://global.discourse-cdn.com/nvidia/original/4X/c/c/a/cca8a36582f9b77a2749907cb5f848e8733df5eb.png))
+![Orin PinOut](https://github.com/san25703/CAN-Orin-Ultrasonic/blob/main/Orin%20Pinout.png?raw=true)
+
 
 2. **Configure the CAN Channel**:
    - Update the `channel` argument in the `can.interface.Bus` instantiation to match your PCAN-USB hardware port.
